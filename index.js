@@ -15,6 +15,11 @@ app.post('/', (req, res) => {
     // Send a response back to the client
     res.status(200).json({ message: 'Data received successfully', id, username });
 });
+app.get('/', (req, res) => {
+   
+    res.status(200).json({ message: 'Data received successfully' });
+
+});
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
