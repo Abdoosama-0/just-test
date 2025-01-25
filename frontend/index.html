@@ -1,19 +1,36 @@
-<!DOCTYPE html>
+
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Input Value</title>
+    <title>Task Fetcher</title>
 </head>
 <body>
-    <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" placeholder="Enter your username">
-        <button type="button" id="getValueButton">Get Value</button>
-    </form>
-    <dev id="output"></dev>
-
-    <!-- Load the JavaScript at the end -->
+<!-- ======================================================================================================-->
+    <input type="text" id="username" placeholder="Enter your task">
+    <button id="getValueButton">add Task</button>
+    <div id="output"></div>
+<!-- ======================================================================================================-->
+    <input type="text" id="id" placeholder="Enter your task id to get">
+    <button id="getValueButton2">gettask</button>
+    <div id="output2"></div>
+<!-- ======================================================================================================-->
+    <button id="getValueButton3">findtasks</button>
+    <div id="output3"></div>
+<!-- ======================================================================================================-->
+    <input type="text" id="task" placeholder="Enter your  task id to update">
+    <input type="text" id="newtask" placeholder="Enter your new task name">
+    <button id="submit">update Task</button>
+    <div id="output5"></div>
+<!-- ======================================================================================================-->
+<input type="text" id="taskid" placeholder="Enter your  task id to update">
+<button id="submit1">delete Task</button>
+<div id="output6"></div>
+<!-- ======================================================================================================-->
     <script src="app.js"></script>
 </body>
 </html>
+
+

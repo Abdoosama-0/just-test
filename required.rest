@@ -1,0 +1,36 @@
+### get all tasks
+http://localhost:3000/api/v1/tasks
+
+###get specific task
+GET http://localhost:3000/api/v1/tasks/6795103adc48087af75a94fd
+
+### post task
+POST http://localhost:3000/api/v1/tasks
+Content-Type: application/json
+
+{
+    "name" : "sleep well"
+}
+
+
+### post task
+POST http://localhost:3000/api/v1/tasks
+Content-Type: application/json
+
+{
+    "name" : "sleep well"
+}
+
+### patch task 
+PATCH http://localhost:3000/api/v1/tasks/678c12afca17f5f0d2d8e0df
+Content-Type: application/json
+
+{
+    "name" : "sleep 7 hours"
+}
+
+
+### patch task 
+DELETE  http://localhost:3000/api/v1/tasks/678c134e0b4eab75eb87ae31
+
+
