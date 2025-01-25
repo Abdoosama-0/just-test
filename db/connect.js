@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 
-const connectdb=(url)=>{
+const connectdb= (url)=>{
    return mongoose
     .connect(url)
  
